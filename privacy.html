@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chalk Privacy Policy</title>
+<style>
+  :root { --bg: #f5f5f3; --ink: #14161a; --muted: #5b6070; --accent: #1f4fd1; --card: #ffffff; --line: #e3e4e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111214; --ink: #eef0f3; --muted: #a2a7b3; --accent: #7c9cff; --card: #1a1c20; --line: #2a2d33; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 36px 0 8px; }
+  p, li { color: var(--ink); }
+  .meta { color: var(--muted); margin: 0 0 28px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 20px; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  code { font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Chalk Privacy Policy</h1>
+  <p class="meta">Last updated 20 November 2026</p>
+
+  <div class="card">
+    <p><strong>In short:</strong> Chalk keeps your training log in your own account. It sends a summary of your training to an AI provider only when you use the online Coach. There are no ads, no tracking and no analytics tools, and your data is never sold. You can export or delete everything from the app.</p>
+  </div>
+
+  <h2>Who runs Chalk</h2>
+  <p>Chalk is an iPhone app for CrossFit and strength training, built and run by one developer as a personal project. Questions about this policy or your data: <a href="mailto:lior87@gmail.com">lior87@gmail.com</a>.</p>
+
+  <h2>What Chalk stores</h2>
+  <ul>
+    <li><strong>Your account:</strong> the email address and account id from Sign in with Apple or Google.</li>
+    <li><strong>What you enter:</strong> workouts and scores, lifts and records, benchmarks, goals, skills, body weight and body fat, recovery routines, supplements, equipment, preferences, and injuries with any notes you add about them (which can include what a doctor or physio told you).</li>
+    <li><strong>Coach answers:</strong> each answer, a short summary of what was asked, the model used and how many tokens it took, so you can see your usage and the Coach can avoid repeating itself. Things you ask the Coach to remember are stored too, and you can change or delete them in Account.</li>
+    <li><strong>An AI key, if you add your own:</strong> stored encrypted, and used only to answer your own requests.</li>
+  </ul>
+  <p>Your full chat history stays on your iPhone and is not uploaded.</p>
+
+  <h2>What stays on your iPhone</h2>
+  <ul>
+    <li><strong>Photos:</strong> a photo you scan to fill in a workout is read on the iPhone. The photo is not uploaded, only the text you choose to save.</li>
+    <li><strong>The on-device Coach:</strong> the default Coach runs on Apple's on-device model. Nothing leaves your iPhone to answer.</li>
+    <li><strong>Gym login:</strong> if you connect Arbox, your Arbox login is kept in the iPhone's Keychain, and Chalk talks to Arbox directly from your iPhone.</li>
+  </ul>
+
+  <h2>Apple Health</h2>
+  <p>With your permission, Chalk reads your body weight and the workouts your Apple Watch recorded, to show them next to what you log. Body weight you import is saved to your account. Chalk never writes to Apple Health, and Health data is never used for advertising or shared with anyone for that purpose.</p>
+
+  <h2>The online Coach</h2>
+  <p>If you switch the Coach to online and ask it something, Chalk sends your question and a summary of your training to the AI provider. The summary covers recent workouts, lifts, goals, injuries and preferences, and your gym's coming classes if you connected Arbox. The provider is one of:</p>
+  <ul>
+    <li><strong>Anthropic</strong> (Claude), with Chalk's key or your own Claude key.</li>
+    <li><strong>Google</strong> (Gemini), only if you add your own Gemini key. Google's free tier may use requests to improve its products. The app warns you about this before you add a key.</li>
+  </ul>
+  <p>The provider handles that data under its own API terms and privacy policy. Nothing the Coach suggests becomes part of your log unless you save it.</p>
+
+  <h2>Where your data is kept</h2>
+  <p>Your account and log are stored with <a href="https://supabase.com/privacy">Supabase</a>, in its Seoul (South Korea) region. Data is encrypted in transit, and database rules make sure each account can read only its own rows.</p>
+
+  <h2>What Chalk does not do</h2>
+  <ul>
+    <li>No advertising and no ad tracking.</li>
+    <li>No third-party analytics or crash-reporting tools. Apple may share crash reports with the developer if you allow it in your iPhone's settings.</li>
+    <li>Your data is never sold or shared with anyone other than the services named above.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Export:</strong> Account → Export gives you everything Chalk holds about you as a file.</li>
+    <li><strong>Delete:</strong> Account → Delete account permanently deletes your account and everything in it from the server, and removes the Arbox login from your iPhone. You can also email the address above to ask for this.</li>
+    <li><strong>Stop sending data to an AI provider:</strong> set the Coach to "On this iPhone" in Account.</li>
+    <li><strong>Apple Health:</strong> you can turn off Chalk's access at any time in the Health app.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Chalk is not meant for children under 16 and does not knowingly collect their data.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the date at the top changes too. Anything that changes what is shared will also be announced in the app.</p>
+</main>
+</body>
+</html>
